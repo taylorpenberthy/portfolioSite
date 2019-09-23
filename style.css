@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Lexend Exa', sans-serif;
+    color: rgba(98, 97, 99, 0.8);
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body {
+    line-height: 1.5;
+    text-align: left;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 247, 224, 0.5);
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.menu {
+    font-size: 14px;
+    padding: 0vh 2vw 0vh 2vw;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+}
+
+.menu:hover {
+    color: white;
+}
+.introduce {
+    padding-top: 210px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: rgba(255, 247, 224, 0.5);
+}
+
+h1 {
+    font-family: 'Lexend Exa', sans-serif;
+    color: rgba(10, 10, 10, 0.8);
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    vertical-align: middle;
+}
+
+.scroll {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    box-shadow: 3px 4px 0px 0px #9fb4f2;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 17px;
+    font-family: 'Lexend Exa', sans-serif;
+    text-decoration: none;
+    padding: 7px 25px;
+    margin-bottom: 200px;
+}
+
+#projectButton {
+    text-decoration: none;
+    color:grey;
+    
+}
+
+#projectContent {
+    text-align: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    /* padding: 35px 32px; */
+    padding: 30px 70px 450px 70px;
+}
+
+div {
+    display: block;
+}
+
+.myProjects {
+    display: block;
+    background-color: white;
+    
+}
+
+.row {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 240px;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.column {
+    height: 500px;
+    flex: 50%;
+    text-align: left;
+}
+
+.image-wrapper {
+    margin: 0 60px 2px 60px;
+    text-align: center;
+    float: left;
+}
+
+a {
+    cursor: pointer;
+}
+
+.projectImages {
+    max-width: 100%;
+    height: auto;
+}
+
+.summary {
+    padding: 20px 40px;
+    margin: 0 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
